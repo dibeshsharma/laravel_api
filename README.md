@@ -1,6 +1,8 @@
 # laravel_api
 
 1) Clone this repository into your personal directory and in terminal run command:
+$ cd personal_directory/git clone https://github.com/dibeshsharma/laravel_api.git 
+and enter into the clone directory with command:
 $ cd personal_directory/laravel_api
 
 2) Sign up to pusher : https://dashboard.pusher.com/accounts/sign_up. After successful sign up, under the APP keys you will see your app_id, key, secret and cluster.
