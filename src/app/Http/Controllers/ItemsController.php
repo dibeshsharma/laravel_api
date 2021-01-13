@@ -17,12 +17,6 @@ class ItemsController extends Controller
 
     public function show($id)
     {
-    	$item = Item::find($id);
-
-    	if(is_null($item)){
-    		return response()->json(null, 404);
-    	}
-
     	return response()->json(Item::findOrFail($id), 200);
     }
 
